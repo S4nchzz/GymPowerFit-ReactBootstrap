@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Container, Modal, ModalBody, ModalHeader, Navbar, NavDropdown, NavItem, NavLink, Row } from "react-bootstrap";
+import { Col, Container, Modal, ModalBody, ModalHeader, Navbar, NavbarCollapse, NavDropdown, NavItem, NavLink, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import PersonIcon from '@mui/icons-material/Person';
 import { Button, TextField } from "@mui/material";
@@ -38,6 +38,14 @@ export default function TopNav() {
     return(
         <Navbar bg="dark" data-bs-theme="dark" className="p-4">
             <Container fluid>
+                <Navbar.Brand>
+                    <img
+                    src="/img/nav/logo.png"
+                    width="100"
+                    alt="Logo PowerFit"
+                    className="logoPicture"></img>
+                </Navbar.Brand>
+                <NavbarCollapse className="justify-content-end" style={{fontSize: '1.2rem'}}>
                 <Nav
                 onSelect={handleMenu}
                 variant="underline">
@@ -68,6 +76,7 @@ export default function TopNav() {
                         </NavLink>
                     </NavItem>
                 </Nav>
+                </NavbarCollapse>
 
                 <Modal
                 show={show}
