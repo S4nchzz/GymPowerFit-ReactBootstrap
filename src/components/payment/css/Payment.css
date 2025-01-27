@@ -1,0 +1,20 @@
+.text-overlay {
+    position: absolute;
+    color: white;
+    font-size: 400%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    top: 35%;
+    left: 44%;
+}
+
+.customImageRender {
+    margin-left: -12.2%;
+    width: 120%;
+}
+
+.overwriteContainerPos {
+    margin-left: 25%;
+}

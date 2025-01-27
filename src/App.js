@@ -1,11 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import Payment from "./components/payment/Payment";
 
-function App() {
-  return (
-    <div>
-    </div>
-  );
-}
-
-export default App;
+export default function App(params) {
+    return (
+        <Payment/> /* PAGINA IYAN */
+    );
+};

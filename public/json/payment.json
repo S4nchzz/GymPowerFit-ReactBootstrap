@@ -1,0 +1,54 @@
+{
+  "basic": {
+    "name": "Pack Basico",
+    "rewards": [
+      "Pulsera de entrada",
+      "Acceso únicamente a la sala fit",
+      "Vestuario (sin taquilla reservada)",
+      "1 Curso gratuito"
+    ],
+    "price" : "7,99"
+  },
+  "medium": {
+    "name": "Pack Medio",
+    "rewards": [
+      "Pulsera de entrada",
+      "Acceso a la sala fit y padel",
+      "Vestuario (con taquilla reservada)",
+      "2 Cursos gratuitos",
+      "2 Horas de aparcamiento (sin parcela)"
+    ],
+    "price" : "11,99"
+  },
+  
+  "complete": {
+    "name": "Pack Completo",
+    "rewards": [
+      "Pulsera de entrada",
+      "Acceso a todas las salas fit",
+      "Vestuario (con taquilla reservada)",
+      "4 Cursos gratuitos",
+      "4 Horas de aparcamiento (con parcela)",
+      "Sauna accesible con pulsera",
+      "Acceso a piscina gratuito",
+      "Accesorios gratuitos con el pack"
+    ],
+    "price" : "37,99"
+  },
+
+  "premium": {
+    "name": "Pack Premium",
+    "rewards": [
+      "Pulsera de entrada",
+      "Acceso a todas las salas deportivas",
+      "Vestuario (con taquilla reservada)",
+      "5 Cursos gratuitos (A elección)",
+      "6 Horas de aparcamiento (con parcela)",
+      "Sauna, piscina y sala de padel",
+      "2 Suplementos (A eleccíon) / mes",
+      "Reserva de maquinas sin limite"
+    ],
+    "price" : "75,99"
+  }
+}
+  
