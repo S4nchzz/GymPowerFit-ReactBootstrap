@@ -1,0 +1,17 @@
+.custom-modal .modal-content {
+    background-color: #141212;
+}
+
+.credentialFields::placeholder {
+    color: white !important
+}
+
+.mt-3 {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.separateButtons {
+    margin: 100px; /* Espacio entre los botones */
+}

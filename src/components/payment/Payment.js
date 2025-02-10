@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './css/Payment.css';
+import '../css/Payment.css';
 import Pack from './Pack.tsx';
 import { CardGroup, Container } from 'react-bootstrap';
 import Nav from '../Nav.tsx'
@@ -32,7 +32,6 @@ function Payment() {
           })}
         </CardGroup>
       </Container>
-
       <Footer/>
     </div>
   );

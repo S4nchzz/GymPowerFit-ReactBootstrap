@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Col, Container, Modal, ModalBody, ModalHeader, Navbar, NavbarCollapse, NavDropdown, NavItem, NavLink, Row } from "react-bootstrap";
+import { Col, Container, Modal, ModalBody, Navbar, NavbarCollapse, NavDropdown, NavItem, NavLink, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import PersonIcon from '@mui/icons-material/Person';
 import { Button, TextField } from "@mui/material";
+import "./css/Nav.css"
 
 export default function TopNav() {
     const [show, setShow] = useState(false);
@@ -33,6 +34,10 @@ export default function TopNav() {
             default:
                 break;
         }
+    }
+
+    const loginButton = () => {
+       alert("Sesion iniciada")
     }
 
     return(
@@ -82,20 +87,69 @@ export default function TopNav() {
                 show={show}
                 onHide={() => setShow(false)}
                 centered
-                size="lg">
+                size="lg"
+                className="custom-modal">
                     <ModalBody>
                         <Container>
                             <Row>
                                 <Col md={6} className="mt-5 mb-5">
                                     <div className="overwriteContainerPos mt-4">
-                                    <h1>Log in</h1>
+                                    <h1 style={{ color: 'white'}}>Log in</h1>
 
-                                        <TextField id="standard-basic" label="Username" variant="standard" />
-                                        <TextField id="standard-basic" label="Password" variant="standard" type="password" />
+                                    <TextField
+                                        id="standard-basic"
+                                        label="Username"
+                                        variant="standard"
+                                        InputLabelProps={{
+                                            sx: {
+                                            color: "grey", // Color cuando el campo no está enfocado
+                                            "&.Mui-focused": {
+                                                color: "grey", // Color cuando el campo está enfocado
+                                            },
+                                            },
+                                        }}
+                                        sx={{
+                                            "& .MuiInputBase-input": {
+                                            color: "white", 
+                                            },
+                                            "& .MuiInput-underline:before": {
+                                            borderBottomColor: "grey", 
+                                            },
+                                            "& .MuiInput-underline:after": {
+                                            borderBottomColor: "grey", 
+                                            },
+                                        }}
+                                        />
+
+                                        <TextField 
+                                        id="standard-basic"
+                                        label="Password" 
+                                        variant="standard" 
+                                        type="password"
+                                        InputLabelProps={{
+                                            sx: {
+                                            color: "grey", // Color cuando el campo no está enfocado
+                                            "&.Mui-focused": {
+                                                color: "grey", // Color cuando el campo está enfocado
+                                            },
+                                            },
+                                        }}
+                                        sx={{
+                                            "& .MuiInputBase-input": {
+                                            color: "white", 
+                                            },
+                                            "& .MuiInput-underline:before": {
+                                            borderBottomColor: "grey", 
+                                            },
+                                            "& .MuiInput-underline:after": {
+                                            borderBottomColor: "grey", 
+                                            },
+                                        }}
+                                        />
 
                                         <Container className="mt-3">
-                                            <Button variant="outlined" className="separateButtons">SING UP</Button>
-                                            <Button variant="contained" className="separateButtons">LOG IN</Button>
+                                            <Button variant="outlined" className="separateButtons" onClick={() => loginButton()}>SING UP</Button>
+                                            <Button variant="contained" className="separateButtons" onClick={() => loginButton()}>LOG IN</Button>
                                         </Container>
                                     </div>
                                 </Col>
