@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import PersonIcon from '@mui/icons-material/Person';
 import { Button, TextField } from "@mui/material";
 import "./css/Nav.css"
+import { Link } from "react-router";
 
 export default function TopNav() {
     const [show, setShow] = useState(false);
@@ -19,8 +20,8 @@ export default function TopNav() {
             case "machinary" :
                 console.log("Machinary clicked");
                 break;
-            case "fees" :
-                console.log("Fees clicked");
+            case "payment" :
+                console.log("Payment clicked");
                 break;
             case "reserves" :
                 console.log("Reserves clicked");
@@ -56,23 +57,23 @@ export default function TopNav() {
                 variant="underline">
 
                     <NavItem>
-                        <NavLink eventKey={"home"}>Home</NavLink>
+                        <NavLink as={Link} to="/">Home</NavLink>
                     </NavItem>
                     
                     <NavDropdown title="Servicos" id="nav-dropdown">
-                        <NavDropdown.Item eventKey={"courses"}>Cursos</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Cursos</NavDropdown.Item>
                         <NavDropdown.Divider/>
-                        <NavDropdown.Item eventKey={"machinary"}>Maquinas</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Maquinas</NavDropdown.Item>
                     </NavDropdown>
 
                     <NavItem>
-                        <NavLink eventKey={"fees"} >Cuotas</NavLink>
+                        <NavLink as={Link} to="/payment">Cuotas</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink eventKey={"reserves"}>Reservas</NavLink>
+                        <NavLink as={Link} to="">Reservas</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink eventKey={"contact"}>Contacto</NavLink>
+                        <NavLink as={Link} to="">Contacto</NavLink>
                     </NavItem>
 
                     <NavItem>
