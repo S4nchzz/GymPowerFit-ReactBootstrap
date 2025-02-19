@@ -13,7 +13,7 @@ export default function App() {
                     <PaymentProvider>
                         <Payment/>
                     </PaymentProvider>}/>
-            
+                
             </Routes>
         </BrowserRouter>
     );

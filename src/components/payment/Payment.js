@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import '../css/Payment.css';
 import Pack from './Pack.tsx';
-import { CardGroup, Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Nav from '../Nav.tsx'
 import FeesFrame from './FeesFrame.tsx';
 import Footer from '../Footer.tsx';
@@ -15,11 +15,11 @@ function Payment() {
       <Nav/>
       <FeesFrame/>
         <Container className="justify-content-center mb-5">
-          <CardGroup className='gap-3 mt-5'>
+          <Row className='gap-3 mt-5'>
             {paymentJson.map((pack, index) => {
               return <Pack key={index} pack={pack} className="card-spacing" />;
             })}
-          </CardGroup>
+          </Row>
         </Container>
       <Footer/>
     </div>
