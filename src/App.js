@@ -5,7 +5,7 @@ import Services from './components/services/Services.js';
 export default function App() {
     return (
         <ServicesProvider>
-            <Services />
+            <Services/>
         </ServicesProvider>
     );
 }
