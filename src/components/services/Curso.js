@@ -1,5 +1,5 @@
 import { Card, Accordion } from 'react-bootstrap';
-import '../css/Services.css';
+import '../css/services.css';
 import { Col } from 'react-bootstrap';
 
 function Cursos({curso}) {

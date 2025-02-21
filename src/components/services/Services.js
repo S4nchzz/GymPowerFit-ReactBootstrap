@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../Footer.tsx';
 import { ServicesContext } from '../context/ServicesContext.js';
 import Curso from './Curso.js'
+import Horario from './Horario.js';
 import Maquinaria from './Maquinaria'
 import Nav from '../Nav.tsx'
 
@@ -21,6 +22,8 @@ export default function Services() {
             })
           }
         </Row>
+
+        <Horario/>
         
         <h1>MAQUINAS</h1>
         <Row>
