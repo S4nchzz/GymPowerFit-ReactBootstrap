@@ -5,7 +5,7 @@ export const ServicesContext = createContext('ServiceContext');
 
 export const ServicesProvider = ({ children }) => {
   const [servicesJson, setServicesJson] = useState([]);
-  const [servicesHorarioJson, setServicesHorarioJson] = useState([]);
+  const [horarioJson, setHorarioJson] = useState([]);
 
   useEffect(() => {
     const fetchServicesJson = async () => {
@@ -19,7 +19,7 @@ export const ServicesProvider = ({ children }) => {
       const response = await fetch('json/horario.json');
       const data = await response.json();
       
-      setServicesHorarioJson(data); 
+      setHorarioJson(data.horario); 
     };
 
     fetchServicesJson();
@@ -27,7 +27,7 @@ export const ServicesProvider = ({ children }) => {
   }, []);
 
   return (
-    <ServicesContext.Provider value={{ servicesJson, servicesHorarioJson }}>
+    <ServicesContext.Provider value={{ servicesJson, horarioJson }}>
       {children }
     </ServicesContext.Provider> 
   );

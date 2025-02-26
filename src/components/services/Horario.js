@@ -3,12 +3,12 @@ import { useContext } from "react";
 import { ServicesContext } from "../context/ServicesContext";
 
 function Horario () {
-    const { horarioData } = useContext(ServicesContext);
+    const { horarioJson } = useContext(ServicesContext);
   return (
-    <div>
-      <h1>HORARIO</h1>
+    <div id="hrr">
+      <h1 style={{ marginTop: '100px', marginBottom: '10px'}}>HORARIO</h1>
       
-      <table>
+      {horarioJson && (<table>
         <thead>
             <tr>
                 <th>Horas</th>
@@ -22,7 +22,7 @@ function Horario () {
             </tr>
         </thead>
         <tbody>
-        {horarioData.horario.map((item, index) => (
+        {horarioJson.map((item, index) => (
             <tr key={index}>
               <td className="border px-4 py-2">{item.hora}</td>
               <td className="border px-4 py-2">{item.Lunes ? item.Lunes : ""}</td>
@@ -35,7 +35,7 @@ function Horario () {
             </tr>
           ))}
         </tbody>
-      </table>
+      </table>)}
     </div>
   );
 };

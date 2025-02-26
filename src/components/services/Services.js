@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
 import Footer from '../Footer.tsx';
 import { ServicesContext } from '../context/ServicesContext.js';
 import Curso from './Curso.js'
@@ -14,7 +14,7 @@ export default function Services() {
     <div>
       <Nav/>
       <Container className="justify-content-center mb-6">
-      <h1>CURSOS</h1>
+      <h1 style={{ marginTop: '50px'}}>CURSOS</h1>
         <Row>
           {
             servicesJson.cursos?.map((c) => {
@@ -25,7 +25,7 @@ export default function Services() {
 
         <Horario/>
         
-        <h1>MAQUINAS</h1>
+        <h1 style={{ marginTop: '100px'}}>MÁQUINAS</h1>
         <Row>
           {
             servicesJson.maquinaria?.map((m) => {

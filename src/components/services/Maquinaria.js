@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, CardText, CardImg, Col } from 'react-bootstr
 function Maquinaria({maquinaria}) {
   return (    
     <Col md={2}>
-      <Card>
+      <Card  style={{ marginTop: '20px', marginBottom: '15px'}}>
         <CardBody>
           <CardImg src={maquinaria.foto} alt="Card image maquinas"/>
           <CardTitle>{maquinaria.nom_maquina}</CardTitle>
