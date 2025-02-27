@@ -7,7 +7,8 @@
       "Vestuario (sin taquilla reservada)",
       "1 Curso gratuito"
     ],
-    "price" : "7,99"
+    "price" : "7,99",
+    "image": "pay1.png"
   },
   "medium": {
     "name": "Pack Medio",
@@ -18,7 +19,8 @@
       "2 Cursos gratuitos",
       "2 Horas de aparcamiento (sin parcela)"
     ],
-    "price" : "11,99"
+    "price" : "11,99",
+    "image": "pay2.png"
   },
   
   "complete": {
@@ -33,7 +35,8 @@
       "Acceso a piscina gratuito",
       "Accesorios gratuitos con el pack"
     ],
-    "price" : "37,99"
+    "price" : "37,99",
+    "image": "pay3.png"
   },
 
   "premium": {
@@ -48,7 +51,8 @@
       "2 Suplementos (A eleccíon) / mes",
       "Reserva de maquinas sin limite"
     ],
-    "price" : "75,99"
+    "price" : "75,99",
+    "image": "pay4.png"
   }
 }
   

@@ -1,0 +1,144 @@
+{
+  "horario": [
+    {
+      "hora": "07:00 - 07:50",
+      "Lunes": "Zumba",
+      "Martes": "Zumba",
+      "Miércoles": "Zumba",
+      "Jueves": "Zumba",
+      "Viernes": "Zumba",
+      "Sábado": "",
+      "Domingo": "Zumba"
+    },
+    {
+      "hora": "09:00 - 09:50",
+      "Lunes": "",
+      "Martes": "Yoga",
+      "Miércoles": "Yoga",
+      "Jueves": "",
+      "Viernes": "Crossfit",
+      "Sábado": "Ciclo",
+      "Domingo": ""
+    },
+    {
+      "hora": "10:00 - 10:50",
+      "Lunes": "Boxeo",
+      "Martes": "Yoga",
+      "Miércoles": "Boxeo",
+      "Jueves": "Hatha",
+      "Viernes": "Crossfit",
+      "Sábado": "Ciclo",
+      "Domingo": "Hatha"
+    },
+    {
+      "hora": "11:00 - 11:50",
+      "Lunes": "Boxeo",
+      "Martes": "",
+      "Miércoles": "Boxeo",
+      "Jueves": "Hatha",
+      "Viernes": "Spinning",
+      "Sábado": "Pádel",
+      "Domingo": "Hatha"
+    },
+    {
+      "hora": "12:00 - 12:50",
+      "Lunes": "",
+      "Martes": "",
+      "Miércoles": "",
+      "Jueves": "",
+      "Viernes": "Spinning",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "13:00 - 13:50",
+      "Lunes": "Crossfit",
+      "Martes": "Ciclo",
+      "Miércoles": "Crossfit",
+      "Jueves": "",
+      "Viernes": "",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "15:00 - 15:50",
+      "Lunes": "Pilates",
+      "Martes": "Pilates",
+      "Miércoles": "",
+      "Jueves": "Pilates",
+      "Viernes": "Pilates",
+      "Sábado": "Spinning",
+      "Domingo": "Step"
+    },
+    {
+      "hora": "16:00 - 16:50",
+      "Lunes": "Pilates",
+      "Martes": "Natación",
+      "Miércoles": "",
+      "Jueves": "Natación",
+      "Viernes": "Boxeo",
+      "Sábado": "Spinning",
+      "Domingo": "Step"
+    },
+    {
+      "hora": "17:00 - 17:50",
+      "Lunes": "",
+      "Martes": "Natación",
+      "Miércoles": "Tenis",
+      "Jueves": "Natación",
+      "Viernes": "Boxeo",
+      "Sábado": "Spinning",
+      "Domingo": ""
+    },
+    {
+      "hora": "18:00 - 18:50",
+      "Lunes": "",
+      "Martes": "Natación",
+      "Miércoles": "",
+      "Jueves": "Natación",
+      "Viernes": "Boxeo",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "19:00 - 19:50",
+      "Lunes": "Tenis",
+      "Martes": "",
+      "Miércoles": "",
+      "Jueves": "",
+      "Viernes": "Pádel",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "20:00 - 20:50",
+      "Lunes": "Step",
+      "Martes": "Step",
+      "Miércoles": "",
+      "Jueves": "",
+      "Viernes": "",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "21:00 - 21:50",
+      "Lunes": "Step",
+      "Martes": "Step",
+      "Miércoles": "",
+      "Jueves": "",
+      "Viernes": "",
+      "Sábado": "",
+      "Domingo": ""
+    },
+    {
+      "hora": "22:00 - 22:50",
+      "Lunes": "",
+      "Martes": "",
+      "Miércoles": "",
+      "Jueves": "",
+      "Viernes": "",
+      "Sábado": "Yoga",
+      "Domingo": "Yoga"
+    }
+  ]
+}  

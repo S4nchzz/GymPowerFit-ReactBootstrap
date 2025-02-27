@@ -42,126 +42,128 @@ export default function TopNav() {
     }
 
     return(
-        <Navbar bg="dark" data-bs-theme="dark" className="p-4">
-            <Container fluid>
-                <Navbar.Brand>
-                    <img
-                    src="/img/nav/logo.png"
-                    width="100"
-                    alt="Logo PowerFit"
-                    className="logoPicture"></img>
-                </Navbar.Brand>
-                <NavbarCollapse className="justify-content-end" style={{fontSize: '1.2rem'}}>
-                <Nav
-                onSelect={handleMenu}
-                variant="underline">
+        <>
+            <Navbar bg="dark" data-bs-theme="dark" className="p-4" expand="lg">
+                <Container fluid>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-                    <NavItem>
-                        <NavLink as={Link} to="/">Home</NavLink>
-                    </NavItem>
-                    
-                    <NavDropdown title="Servicos" id="nav-dropdown">
-                        <NavDropdown.Item as={Link} to="">Cursos</NavDropdown.Item>
-                        <NavDropdown.Divider/>
-                        <NavDropdown.Item as={Link} to="">Maquinas</NavDropdown.Item>
-                    </NavDropdown>
-
-                    <NavItem>
-                        <NavLink as={Link} to="/payment">Cuotas</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink as={Link} to="">Reservas</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink as={Link} to="">Contacto</NavLink>
-                    </NavItem>
-
-                    <NavItem>
-                        <NavLink eventKey={"profile"}>
-                            <PersonIcon /> Profile
+                    <Navbar.Brand>
+                        <NavLink as={Link} to={"/"}>
+                            <img
+                            src="/img/nav/logo.png"
+                            width="100"
+                            alt="Logo PowerFit"
+                            className="logoPicture"></img>
                         </NavLink>
-                    </NavItem>
-                </Nav>
-                </NavbarCollapse>
+                    </Navbar.Brand>
+                    <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav" style={{fontSize: '1.2rem'}}>
+                        <Nav
+                        onSelect={handleMenu}
+                        variant="underline">
 
-                <Modal
-                show={show}
-                onHide={() => setShow(false)}
-                centered
-                size="lg"
-                className="custom-modal">
-                    <ModalBody>
-                        <Container>
-                            <Row>
-                                <Col md={6} className="mt-5 mb-5">
-                                    <div className="overwriteContainerPos mt-4">
-                                    <h1 style={{ color: 'white'}}>Log in</h1>
+                            <NavItem>
+                                <NavLink as={Link} to="/">Home</NavLink>
+                            </NavItem>
+                            
+                            <NavItem>
+                                <NavLink as={Link} to="/services">Servicios</NavLink>
+                            </NavItem>
 
-                                    <TextField
-                                        id="standard-basic"
-                                        label="Username"
-                                        variant="standard"
-                                        InputLabelProps={{
-                                            sx: {
-                                            color: "grey", // Color cuando el campo no está enfocado
-                                            "&.Mui-focused": {
-                                                color: "grey", // Color cuando el campo está enfocado
-                                            },
-                                            },
-                                        }}
-                                        sx={{
-                                            "& .MuiInputBase-input": {
-                                            color: "white", 
-                                            },
-                                            "& .MuiInput-underline:before": {
-                                            borderBottomColor: "grey", 
-                                            },
-                                            "& .MuiInput-underline:after": {
-                                            borderBottomColor: "grey", 
-                                            },
-                                        }}
-                                        />
+                            <NavItem>
+                                <NavLink as={Link} to="/payment">Cuotas</NavLink>
+                            </NavItem>
+                            
+                            <NavItem>
+                                <NavLink as={Link} to="">Contacto</NavLink>
+                            </NavItem>
 
-                                        <TextField 
-                                        id="standard-basic"
-                                        label="Password" 
-                                        variant="standard" 
-                                        type="password"
-                                        InputLabelProps={{
-                                            sx: {
-                                            color: "grey", // Color cuando el campo no está enfocado
-                                            "&.Mui-focused": {
-                                                color: "grey", // Color cuando el campo está enfocado
-                                            },
-                                            },
-                                        }}
-                                        sx={{
-                                            "& .MuiInputBase-input": {
-                                            color: "white", 
-                                            },
-                                            "& .MuiInput-underline:before": {
-                                            borderBottomColor: "grey", 
-                                            },
-                                            "& .MuiInput-underline:after": {
-                                            borderBottomColor: "grey", 
-                                            },
-                                        }}
-                                        />
+                            <NavItem>
+                                <NavLink eventKey={"profile"}>
+                                    <PersonIcon /> Profile
+                                </NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
 
-                                        <Container className="mt-3">
-                                            <Button variant="outlined" className="separateButtons" onClick={() => loginButton()}>SING UP</Button>
-                                            <Button variant="contained" className="separateButtons" onClick={() => loginButton()}>LOG IN</Button>
-                                        </Container>
-                                    </div>
-                                </Col>
-                                <Col md={6}>
-                                    <img src="/img/modal/manPosing.png" alt="Hombre posando" className="customImageRender"></img>
-                                </Col>
-                            </Row>
-                        </Container>
-                    </ModalBody>
-                </Modal>
-            </Container>
-        </Navbar>
+            <Modal
+            show={show}
+            onHide={() => setShow(false)}
+            centered
+            size="lg"
+            className="custom-modal">
+                <ModalBody>
+                    <Container>
+                        <Row>
+                            <Col md={6} className="mt-5 mb-5">
+                                <div className="overwriteContainerPos mt-4">
+                                <h1 style={{ color: 'white'}}>Log in</h1>
+
+                                <TextField
+                                    id="standard-basic"
+                                    label="Username"
+                                    variant="standard"
+                                    InputLabelProps={{
+                                        sx: {
+                                        color: "grey", // Color cuando el campo no está enfocado
+                                        "&.Mui-focused": {
+                                            color: "grey", // Color cuando el campo está enfocado
+                                        },
+                                        },
+                                    }}
+                                    sx={{
+                                        "& .MuiInputBase-input": {
+                                        color: "white", 
+                                        },
+                                        "& .MuiInput-underline:before": {
+                                        borderBottomColor: "grey", 
+                                        },
+                                        "& .MuiInput-underline:after": {
+                                        borderBottomColor: "grey", 
+                                        },
+                                    }}
+                                    />
+
+                                    <TextField 
+                                    id="standard-basic"
+                                    label="Password" 
+                                    variant="standard" 
+                                    type="password"
+                                    InputLabelProps={{
+                                        sx: {
+                                        color: "grey", // Color cuando el campo no está enfocado
+                                        "&.Mui-focused": {
+                                            color: "grey", // Color cuando el campo está enfocado
+                                        },
+                                        },
+                                    }}
+                                    sx={{
+                                        "& .MuiInputBase-input": {
+                                        color: "white", 
+                                        },
+                                        "& .MuiInput-underline:before": {
+                                        borderBottomColor: "grey", 
+                                        },
+                                        "& .MuiInput-underline:after": {
+                                        borderBottomColor: "grey", 
+                                        },
+                                    }}
+                                    />
+
+                                    <Container className="mt-3">
+                                        <Button variant="outlined" className="separateButtons" onClick={() => loginButton()}>SING UP</Button>
+                                        <Button variant="contained" className="separateButtons" onClick={() => loginButton()}>LOG IN</Button>
+                                    </Container>
+                                </div>
+                            </Col>
+                            <Col md={6}>
+                                <img src="/img/modal/manPosing.png" alt="Hombre posando" className="customImageRender"></img>
+                            </Col>
+                        </Row>
+                    </Container>
+                </ModalBody>
+            </Modal>
+        </>
     );
 };

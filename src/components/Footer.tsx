@@ -1,5 +1,6 @@
 import React from "react"
-import { Container, Row } from "react-bootstrap"
+import { Container, NavLink, Row } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     const handleMenu = (menu) => {
@@ -26,28 +27,27 @@ export default function Footer() {
 
     return (
         <footer>
-            <Container fluid className="bg-dark p-4" style={{textAlign: 'center'}}>
-                <Row className="text-white">
-                    <h2>PowerFit</h2>
-                </Row>
-                <Row className="text-white">
-                    <ul style={{display: 'flex', justifyContent: 'center', gap: '2%', listStyle: 'none', textDecoration: 'none', color: 'white'}}>
-                        <li><span onClick={() => handleMenu("home")} style={{cursor: 'pointer'}}>Home</span></li>
-                        <li><span onClick={() => handleMenu("services")} style={{cursor: 'pointer'}}>Services</span></li>
-                        <li><span onClick={() => handleMenu("fees")} style={{cursor: 'pointer'}}>Cuotas</span></li>
-                        <li><span onClick={() => handleMenu("reserves")} style={{cursor: 'pointer'}}>Reservas</span></li>
-                        <li><span onClick={() => handleMenu("contact")} style={{cursor: 'pointer'}}>Contacto</span></li>
-                    </ul>
-                </Row>
-                <Row>
-                <ul style={{display: 'flex', justifyContent: 'center', listStyle: 'none', textDecoration: 'none', color: 'white'}}>
-                        <li><span style={{cursor: 'pointer'}}><img src="/img/footer/twitter.png" alt="twitterImg" width={'70%'}/></span></li>
-                        <li><span style={{cursor: 'pointer'}}><img src="/img/footer/instagram.png" alt="twitterImg" width={'70%'}/></span></li>
-                        <li><span style={{cursor: 'pointer'}}><img src="/img/footer/facebook.png" alt="twitterImg" width={'70%'}/></span></li>
-                        <li><span style={{cursor: 'pointer'}}><img src="/img/footer/youtube.png" alt="twitterImg" width={'70%'}/></span></li>
-                    </ul>
-                </Row>
-            </Container>  
-        </footer>
+    <Container fluid className="bg-dark p-4" style={{textAlign: 'center'}}>
+        <Row className="text-white">
+            <h2>PowerFit</h2>
+        </Row>
+        <Row className="text-white">
+            <ul style={{display: 'flex', justifyContent: 'center', gap: '2%', listStyle: 'none', textDecoration: 'none', color: 'white'}}>
+                <li><NavLink as={Link} to="/" style={{color: 'white'}}>Home</NavLink></li>
+                <li><NavLink as={Link} to="/services" style={{color: 'white'}}>Servicios</NavLink></li>
+                <li><NavLink as={Link} to="/fees" style={{color: 'white'}}>Cuotas</NavLink></li>
+                <li><NavLink as={Link} to="/contact" style={{color: 'white'}}>Contacto</NavLink></li>
+            </ul>
+        </Row>
+        <Row>
+            <ul style={{display: 'flex', justifyContent: 'center', listStyle: 'none', textDecoration: 'none', color: 'white'}}>
+                <li><NavLink as={Link} to="https://twitter.com" target="_blank" style={{cursor: 'pointer'}}><img src="/img/footer/twitter.png" alt="twitterImg" width={'70%'}/></NavLink></li>
+                <li><NavLink as={Link} to="https://instagram.com" target="_blank" style={{cursor: 'pointer'}}><img src="/img/footer/instagram.png" alt="twitterImg" width={'70%'}/></NavLink></li>
+                <li><NavLink as={Link} to="https://facebook.com" target="_blank" style={{cursor: 'pointer'}}><img src="/img/footer/facebook.png" alt="twitterImg" width={'70%'}/></NavLink></li>
+                <li><NavLink as={Link} to="https://youtube.com" target="_blank" style={{cursor: 'pointer'}}><img src="/img/footer/youtube.png" alt="twitterImg" width={'70%'}/></NavLink></li>
+            </ul>
+        </Row>
+    </Container>
+</footer>
     )
 };

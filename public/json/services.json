@@ -1,0 +1,150 @@
+{
+  "cursos": [
+    {
+      "titulo": "Pilates",
+      "descripcion": "Método de ejercicio que fortalece el core, mejora la flexibilidad y la postura. Ideal para todos los niveles y enfocado en la conexión mente-cuerpo. ¡Únete a nuestras clases!",
+      "sala": "Sala 3",
+      "precio": "11,99€"
+    },
+    {
+      "titulo": "Natación",
+      "descripcion": "Entrenamiento completo que mejora la resistencia, flexibilidad los músculos y reduce el estrés. Ideal para todas las edades y niveles. ¡Descubre nuestros horarios y sumérgete con nosotros!",
+      "sala": "Piscina Gym",
+      "precio": "16,99€"
+    },
+    {
+      "titulo": "Pádel",
+      "descripcion": "Deporte dinámico y social que mejora la coordinación, agilidad y resistencia. Perfecto para todos los niveles. ¡Reserva tu cancha y juega con nosotros!",
+      "sala": "Canchas de Pádel",
+      "precio": "18,00€"
+    },
+    {
+      "titulo": "Tenis",
+      "descripcion": "Deporte intenso que potencia la fuerza, velocidad y concentración. Ideal para todas las edades y niveles. ¡Únete y mejora tu juego en nuestras canchas!",
+      "sala": "Canchas de Tenis",
+      "precio": "17,99€"
+    },
+    {
+      "titulo": "Boxeo",
+      "descripcion": "Entrenamiento completo que mejora fuerza, resistencia y enfoque mental. Ideal para liberar estrés y fortalecer el cuerpo. ¡Únete a nuestras clases y desafía!",
+      "sala": "Sala 4",
+      "precio": "15,00€"
+    },
+    {
+      "titulo": "Zumba",
+      "descripcion": "Clase de baile y fitness llena de energía que combina ritmos y movimientos divertidos. ¡Ideal para todos los niveles! ¡Baila, quema calorías y diviértete con nosotros!",
+      "sala": "Sala 6",
+      "precio": "8,99€"
+    },
+    {
+      "titulo": "Hatha",
+      "descripcion": "Práctica equilibrada que combina posturas, respiración y meditación. Ideal para mejorar la flexibilidad, la fuerza y la paz mental. ¡Únete a nuestras clases y encuentra tu centro!",
+      "sala": "Sala 9",
+      "precio": "10,00€"
+    },
+    {
+      "titulo": "Spinning",
+      "descripcion": "Clase de ciclismo indoor intensa que mejora la resistencia cardiovascular y quema calorías. Perfecto para todos los niveles. ¡Sube a la bicicleta y pedalea con energía!",
+      "sala": "Sala 2",
+      "precio": "14,99€"
+    },
+    {
+      "titulo": "Yoga",
+      "descripcion": "Práctica que combina posturas, respiración y meditación para mejorar la flexibilidad, reducir el estrés y promover el bienestar integral. ¡Descubre la paz interior en nuestras clases!",
+      "sala": "Sala 4",
+      "precio": "7,00€"
+    },
+    {
+      "titulo": "Crossfit",
+      "descripcion": "Entrenamiento funcional intenso que combina levantamiento de pesas, cardio y ejercicios de alta intensidad. Ideal para todos los niveles. ¡Desafía tus límites y alcanza tus metas!",
+      "sala": "Sala 3",
+      "precio": "8,00€"
+    },
+    {
+      "titulo": "Step",
+      "descripcion": "Clase de aeróbicos que utiliza una plataforma para tonificar y mejorar la resistencia cardiovascular. Divertido y dinámico, apto para todos los niveles. ¡Únete y eleva tu energía!",
+      "sala": "Sala 5",
+      "precio": "4,99€"
+    },
+    {
+      "titulo": "Ciclo",
+      "descripcion": "Entrenamiento de ciclismo indoor que combina música y motivación para mejorar la resistencia y quema de calorías. Ideal para todos los niveles. ¡Pedalea hacia tus objetivos!",
+      "sala": "Sala 8",
+      "precio": "12,00€"
+    }
+  ],
+  "maquinaria": [
+    {
+      "foto": "img/machinaryPictures/maq1.png",
+      "nom_maquina": "Prensa Horizontal",
+      "modelo": "BH Fitness 45",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq2.png",
+      "nom_maquina": "Press de Pecho",
+      "modelo": "BH Fitness 46",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq3.png",
+      "nom_maquina": "Multifunción",
+      "modelo": "BH Fitness 47",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq4.png",
+      "nom_maquina": "Calf Press",
+      "modelo": "BH Fitness 48",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq5.png",
+      "nom_maquina": "Seated Row",
+      "modelo": "BH Fitness 49",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq6.png",
+      "nom_maquina": "Abductores",
+      "modelo": "BH Fitness 50",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq7.png",
+      "nom_maquina": "Multipower",
+      "modelo": "BH Fitness 51",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq8.png",
+      "nom_maquina": "Remo",
+      "modelo": "BH Fitness 52",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq9.png",
+      "nom_maquina": "Escaleras",
+      "modelo": "BH Fitness 53",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq10.png",
+      "nom_maquina": "Bicicleta",
+      "modelo": "BH Fitness 54",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq11.png",
+      "nom_maquina": "Cinta de correr",
+      "modelo": "BH Fitness 55",
+      "precio": "3,99 € / semana"
+    },
+    {
+      "foto": "img/machinaryPictures/maq12.png",
+      "nom_maquina": "Curl de bíceps",
+      "modelo": "BH Fitness 56",
+      "precio": "3,99 € / semana"
+    }
+  ]
+}
