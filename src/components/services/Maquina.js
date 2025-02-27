@@ -34,7 +34,7 @@ function Maquina({ maquina }) {
 
   return (
     <>
-      <Col md={2}>
+      <Col sm={12} md={6} lg={2}>
         <Card style={{ marginTop: "20px", marginBottom: "15px" }}>
           <CardBody>
             <CardImg src={maquina.foto} alt="Card image maquinas" />

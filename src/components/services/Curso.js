@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap';
 function Cursos({curso}) {
   return (
 
-    <Col md={2}  style={{ marginTop: '10px'}}>
+    <Col sm={12} md={6} lg={2} style={{ marginTop: '10px'}}>
       <Accordion>
       <Card>
         <Accordion.Item eventKey="0" >
