@@ -4,7 +4,7 @@ import Footer from '../Footer.tsx';
 import { ServicesContext } from '../context/ServicesContext.js';
 import Curso from './Curso.js'
 import Horario from './Horario.js';
-import Maquinaria from './Maquinaria'
+import Maquina from './Maquina'
 import Nav from '../Nav.tsx'
 
 export default function Services() {
@@ -29,7 +29,7 @@ export default function Services() {
         <Row>
           {
             servicesJson.maquinaria?.map((m) => {
-              return <Maquinaria key={m.nom_maquina} maquinaria={m} />
+              return <Maquina key={m.nom_maquina} maquina={m} />
             })
           }
         </Row>

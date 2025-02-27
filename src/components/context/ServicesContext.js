@@ -28,7 +28,7 @@ export const ServicesProvider = ({ children }) => {
 
   return (
     <ServicesContext.Provider value={{ servicesJson, horarioJson }}>
-      {children }
+      {children}
     </ServicesContext.Provider> 
   );
 }

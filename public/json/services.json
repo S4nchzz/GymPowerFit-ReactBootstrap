@@ -75,73 +75,73 @@
   ],
   "maquinaria": [
     {
-      "foto": "img/maquinaria/maq1.png",
+      "foto": "img/machinaryPictures/maq1.png",
       "nom_maquina": "Prensa Horizontal",
       "modelo": "BH Fitness 45",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq2.png",
+      "foto": "img/machinaryPictures/maq2.png",
       "nom_maquina": "Press de Pecho",
       "modelo": "BH Fitness 46",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq3.png",
+      "foto": "img/machinaryPictures/maq3.png",
       "nom_maquina": "Multifunción",
       "modelo": "BH Fitness 47",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq4.png",
+      "foto": "img/machinaryPictures/maq4.png",
       "nom_maquina": "Calf Press",
       "modelo": "BH Fitness 48",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq5.png",
+      "foto": "img/machinaryPictures/maq5.png",
       "nom_maquina": "Seated Row",
       "modelo": "BH Fitness 49",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq6.png",
+      "foto": "img/machinaryPictures/maq6.png",
       "nom_maquina": "Abductores",
       "modelo": "BH Fitness 50",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq7.png",
+      "foto": "img/machinaryPictures/maq7.png",
       "nom_maquina": "Multipower",
       "modelo": "BH Fitness 51",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq8.png",
+      "foto": "img/machinaryPictures/maq8.png",
       "nom_maquina": "Remo",
       "modelo": "BH Fitness 52",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq9.png",
+      "foto": "img/machinaryPictures/maq9.png",
       "nom_maquina": "Escaleras",
       "modelo": "BH Fitness 53",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq10.png",
+      "foto": "img/machinaryPictures/maq10.png",
       "nom_maquina": "Bicicleta",
       "modelo": "BH Fitness 54",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq11.png",
+      "foto": "img/machinaryPictures/maq11.png",
       "nom_maquina": "Cinta de correr",
       "modelo": "BH Fitness 55",
       "precio": "3,99 € / semana"
     },
     {
-      "foto": "img/maquinaria/maq12.png",
+      "foto": "img/machinaryPictures/maq12.png",
       "nom_maquina": "Curl de bíceps",
       "modelo": "BH Fitness 56",
       "precio": "3,99 € / semana"
